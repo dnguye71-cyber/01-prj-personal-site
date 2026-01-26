@@ -6,19 +6,34 @@
     border: 3px solid #333;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center top;
+    object-position: center;
     margin-bottom: 15px;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Lato, sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
 }
 
 /* Navigation Bar */
 nav {
-    background-color: #333;
+    background-color: #320796;
     padding: 10px;
 }
 
@@ -51,7 +66,7 @@ section {
 }
 
 #home {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 #about {
@@ -59,7 +74,7 @@ section {
 }
 
 #skills {
-    background-color: #f4f4f4;
+    background-color: #320796;
 }
 
 #projects {
@@ -67,9 +82,9 @@ section {
 }
 
 #contact {
-    background-color: #f4f4f4;
+    background-color: #320796;
 }
-
+ 
 /* Skills List */
 #skills ul {
     list-style-type: none;

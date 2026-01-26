@@ -1,11 +1,12 @@
 /* Add you CSS here */
 /* General Page Styling */
 .profile-img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border: 3px solid #333;
     border-radius: 50%;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center top;
     margin-bottom: 15px;
 }
 

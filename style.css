@@ -6,7 +6,7 @@
     border: 3px solid #333;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center;
+    object-position: center 20%;
     margin-bottom: 15px;
 }
 
@@ -33,7 +33,7 @@ h3 {
 
 /* Navigation Bar */
 nav {
-    background-color: #320796;
+    background-color: #4b0be0;
     padding: 10px;
 }
 
@@ -74,7 +74,7 @@ section {
 }
 
 #skills {
-    background-color: #320796;
+    background-color: #ffffff;
 }
 
 #projects {
@@ -82,7 +82,7 @@ section {
 }
 
 #contact {
-    background-color: #320796;
+    background-color: #4b0be0;
 }
  
 /* Skills List */
@@ -94,3 +94,22 @@ section {
 #skills ul li {
     margin: 10px 0;
 }
+
+.skills-contain {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+

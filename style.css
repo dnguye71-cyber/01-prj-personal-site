@@ -1,5 +1,14 @@
 /* Add you CSS here */
 /* General Page Styling */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;

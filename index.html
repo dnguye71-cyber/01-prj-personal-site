@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan Nguyen - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,9 +20,10 @@
     </nav>
 
     <!-- Home Section -->
-    <section id="home">
+    <section id="home" class="section hero">
         <img src="img/PFP.png" alt="My Profile Picture" class="profile-img">
         <h1>Dylan Nguyen</h1>
+        <p class="subtitle">CSE Student | Web Developer | Hardware Enthusiast</p>
     </section>
 
     <!-- About Me Section -->
@@ -33,46 +35,84 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills">
+       <section id="skills" class="section">
         <h2>Skills</h2>
-        <div class="skills-container"></div>
-            <div class="skill">
-              <img src="img/code-solid-full.svg" alt="HTML icon" class="skill-icon">
-              <p>HTML</p>
+        <div class="skills-container">
+            <div class="skill-card">
+                <p class="skill-name">HTML & CSS</p>
             </div>
 
-            <div class="skill">
-              <img src="img/robot-solid-full.svg" alt="Robot icon" class="skill-icon">
-              <p>Embedded-Coding</p>
+            <div class="skill-card">
+                <p class="skill-name">JavaScript</p>
             </div>
 
-            <div class="skill">
-              <img src="img/java-brands-solid-full.svg" alt="Java icon" class="skill-icon">
-              <p>Javascript</p>
+            <div class="skill-card">
+                <p class="skill-name">AI / APIs</p>
             </div>
 
-            <div class="skill">
-              <img src="img/bolt-solid-full.svg" alt="Bolt icon" class="skill-icon">
-              <p>Circuits</p>
+            <div class="skill-card">
+                <p class="skill-name">Embedded Systems</p>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" class="section">
         <h2>Projects</h2>
-        <p>Projects will be added here as I complete them.</p>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>L'Oreal Routine Builder</h3>
+                <p class="project-tech">OpenAI API | React | Responsive Design</p>
+                <div class="project-skills">
+                    <span class="skill-badge">OpenAI API</span>
+                    <span class="skill-badge">React</span>
+                    <span class="skill-badge">CSS</span>
+                </div>
+                <p class="project-description">Developed an interactive beauty routine application using OpenAI APIs to generate personalized skincare recommendations. Features responsive design that works seamlessly across all device sizes, showcasing API integration and modern web development practices.</p>
+                <a href="https://github.com/dnguye71-cyber/09-prj-loreal-routine-builder" class="project-link">View on GitHub →</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Clean Drop Rush Game</h3>
+                <p class="project-tech">JavaScript | Event Handling | Game Logic</p>
+                <div class="project-skills">
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">DOM Events</span>
+                    <span class="skill-badge">Game Logic</span>
+                </div>
+                <p class="project-description">Created an engaging browser-based game demonstrating advanced JavaScript event handling and game state management. Implemented collision detection, responsive controls, and dynamic game mechanics to deliver a smooth user experience.</p>
+                <a href="https://github.com/dnguye71-cyber/05-cw-game-water-drop" class="project-link">View on GitHub →</a>
+            </div>
+
+            <div class="project-card">
+                <h3>NASA Space Explorer</h3>
+                <p class="project-tech">NASA API | Async JavaScript | Data Visualization</p>
+                <div class="project-skills">
+                    <span class="skill-badge">NASA API</span>
+                    <span class="skill-badge">Async/Await</span>
+                    <span class="skill-badge">DOM Manipulation</span>
+                </div>
+                <p class="project-description">Built an interactive space exploration app leveraging NASA's API to fetch and display real-time astronomical data. Demonstrates proficiency with API integration, asynchronous programming, and creating dynamic user interfaces with live data.</p>
+                <a href="https://github.com/dnguye71-cyber/07-nasa-space-explorer" class="project-link">View on GitHub →</a>
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <div id="contact">
-        <p>Email: dnguye71@asu.edu
-          Linkedin: https://www.linkedin.com/in/dylan-nguyen-a729b2302/ 
-        </p>
+     <section id="contact" class="section contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:dylannguyenaugust10@gmail.com">dylannguyenaugust10@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dylan-nguyen-a729b2302/" target="_blank">Dylan Nguyen</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/dnguye71-cyber" target="_blank">Dylan Nguyen</a></p>
         </div>
+        <p class="contact-cta">Feel free to reach out for opportunities or collaborations!</p>
     </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Dylan Nguyen. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
